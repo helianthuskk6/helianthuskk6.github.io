@@ -10,7 +10,7 @@ personal-blog/
 ├── contact.html      # 联系我
 ├── 404.html          # 自定义 404 页面
 ├── data/
-│   ├── site.json     # ★ 全站配置：个人信息、主题、社交链接
+│   ├── site.json     # 全站配置：个人信息、主题、社交链接
 │   └── posts.json    # 文章列表（标题、日期、标签、摘要）
 ├── posts/            # 文章正文（Markdown 格式）
 ├── css/style.css     # 样式（亮/暗主题、响应式）
@@ -109,6 +109,15 @@ git push -u origin main
 
 3. 等 1-2 分钟，访问 `https://<你的用户名>.github.io` 就能看到你的网站。
 
+### 方式二：项目网站
+
+仓库使用普通名字（如 `my-blog`）：
+
+1. 上传代码后，进入仓库 **Settings → Pages**；
+2. Build and deployment 选择 **Deploy from a branch**，分支选 `main`，目录选 `/ (root)`；
+3. 保存后网站地址为 `https://<你的用户名>.github.io/my-blog/`。
+
+> 项目网站的链接会带仓库名前缀，属于正常现象。
 
 ### 绑定自己的域名（可选）
 
@@ -116,18 +125,6 @@ git push -u origin main
 2. 在仓库 **Settings → Pages → Custom domain** 里填上你的域名并保存；
 3. 在项目根目录放一个 `CNAME` 文件，内容就是你的域名。
 
-## 后续更新网站
-
-每次修改完本地文件后：
-
-```bash
-git add .
-git commit -m "更新内容"
-git push
-```
-
-几秒钟后线上网站就会自动更新。
-
 ---
 
-祝你拥有一个漂亮的个人网站！如果觉得有用，欢迎把它变成你自己的故事。
+
