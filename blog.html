@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>博客 - 我的个人空间</title>
+  <meta name="description" content="我的博客文章列表。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">✦</span>
+        <span id="brand-name">我的个人空间</span>
+      </a>
+      <nav id="site-nav"></nav>
+      <button id="theme-toggle" class="icon-btn" aria-label="切换深色模式"></button>
+      <button id="nav-toggle" class="icon-btn nav-toggle" aria-label="打开菜单">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>博客文章</h1>
+        <p>记录思考，分享生活</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <p id="tag-info" class="tag-info" hidden></p>
+        <div class="post-grid" id="posts-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" id="footer-text"></div>
+  </footer>
+
+  <div id="config-error" hidden></div>
+  <script src="js/markdown.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,20 +1,80 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <link rel ="stylesheet" href="style/main.css">
-    <title>Helianthus - Personal Blog</title>
-    </head>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的个人空间</title>
+  <meta name="description" content="我的个人主页：介绍我自己、我的故事与我的作品。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-    <header>
-    <h1>迷子でもいい、迷子でも進め</h1>
-    </header>
-    <main>
-        <h1></h1><--施工中-->
-    </main>
-</body>   
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">✦</span>
+        <span id="brand-name">我的个人空间</span>
+      </a>
+      <nav id="site-nav"></nav>
+      <button id="theme-toggle" class="icon-btn" aria-label="切换深色模式"></button>
+      <button id="nav-toggle" class="icon-btn nav-toggle" aria-label="打开菜单">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+      </button>
+    </div>
+  </header>
 
- <footer>
-    HelianthusQAQ - 2025
-    <span id="time"></span>
+  <main>
+    <section class="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-inner">
+        <img id="hero-avatar" class="hero-avatar js-avatar" src="assets/avatar.svg" alt="头像">
+        <p class="hero-greeting" id="hero-greeting">你好，我是</p>
+        <h1 class="hero-name" id="hero-name">你的名字</h1>
+        <p class="hero-roles"><span id="hero-typing"></span><span class="typing-cursor"></span></p>
+        <p class="hero-desc" id="hero-desc"></p>
+        <div class="hero-actions">
+          <a id="hero-btn-primary" class="btn btn-primary" href="about.html">了解更多</a>
+          <a id="hero-btn-secondary" class="btn btn-ghost" href="blog.html">阅读博客</a>
+        </div>
+        <div class="social-links js-social"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>最新文章</h2>
+          <a class="more-link" href="blog.html">查看全部 →</a>
+        </div>
+        <div class="post-grid" id="latest-posts"></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container about-teaser reveal">
+        <h2>关于我</h2>
+        <p id="about-intro"></p>
+        <a class="btn btn-ghost" href="about.html">查看完整介绍</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-box reveal">
+        <h2>想和我聊聊？</h2>
+        <p>打个招呼吧</p>
+        <a class="btn btn-primary" href="contact.html">联系我</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" id="footer-text"></div>
   </footer>
+
+  <div id="config-error" hidden></div>
+  <script src="js/markdown.js"></script>
+  <script src="js/main.js"></script>
+</body>
 </html>

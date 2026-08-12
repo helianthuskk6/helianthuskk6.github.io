@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>联系我 - 我的个人空间</title>
+  <meta name="description" content="联系我：邮箱与社交账号。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">✦</span>
+        <span id="brand-name">我的个人空间</span>
+      </a>
+      <nav id="site-nav"></nav>
+      <button id="theme-toggle" class="icon-btn" aria-label="切换深色模式"></button>
+      <button id="nav-toggle" class="icon-btn nav-toggle" aria-label="打开菜单">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>联系我</h1>
+        <p>期待与你交流</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-wrap">
+        <div class="contact-card reveal">
+          <h2>早上好中国</h2>
+          <p id="contact-text"></p>
+          <a id="contact-email" class="btn btn-primary" href="mailto:you@example.com">电（邮）电我</a>
+          <div class="social-links social-links-large js-social"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" id="footer-text"></div>
+  </footer>
+
+  <div id="config-error" hidden></div>
+  <script src="js/markdown.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

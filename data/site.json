@@ -1,0 +1,63 @@
+{
+  "site": {
+    "title": "我的个人空间",
+    "author": "helianthus",
+    "avatar": "assets/c177ab537c630d18b2662ce03951c4e1.jpg",
+    "nav": [
+      { "label": "首页", "url": "index.html" },
+      { "label": "关于我", "url": "about.html" },
+      { "label": "博客", "url": "blog.html" },
+      { "label": "项目", "url": "projects.html" },
+      { "label": "联系", "url": "contact.html" }
+    ],
+    "footerText": "© 2026 helianthus."
+  },
+  "hero": {
+    "greeting": "早上好，中午好，晚上好。",
+    "name": "helianthus",
+    "roles": ["InfoSec Student", "唐人"],
+    "description": "图一乐网页",
+    "primaryButton": { "text": "了解更多", "url": "about.html" },
+    "secondaryButton": { "text": "阅读博客", "url": "blog.html" }
+  },
+  "social": {
+    "github": "https://github.com/helianthus11",
+    "email": "d1fficultut@gmail.com",
+    "X": "https://x.com/assessld",
+    "bilibili": "https://space.bilibili.com/32199946",
+    "wechat": ""
+  },
+  "theme": {
+    "accent": "#6366f1",
+    "accent2": "#a855f7"
+  },
+  "about": {
+    "intro": "香港理工大学23届学生。。。迷途之子，女声优痴（羊宫妃那，青木阳菜推）...",
+    "facts": [
+      { "label": "职业", "value": " 学生 " },
+      { "label": "所在地", "value": "中国" },
+      { "label": "兴趣", "value": "少女乐队，现地跑活" },
+      { "label": "语言", "value": "中文、English、日语（学习中）" }
+    ],
+    "background": "背景思考中...",
+    "timeline": [
+      {
+        "date": "2026",
+        "title": "开启我的博客之旅",
+        "desc": "简简单单vibe code一个个人主页 - -"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "示例项目一",
+      "desc": "这是你第一个项目的简短介绍，说明它解决了什么问题、用了什么技术。",
+      "link": "https://github.com/你的用户名",
+      "tags": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  "contact": {
+    "text": "个人邮箱，欢迎打扰/闲聊/骚扰（bushi",
+    "email": "d1fficultut@gmail.com"
+  }
+}
