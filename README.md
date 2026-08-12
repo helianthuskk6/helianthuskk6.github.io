@@ -88,14 +88,6 @@ python -m http.server 8000
 
 右上角的月亮/太阳按钮可以在亮色与暗色之间切换，选择会被记住。跟随系统偏好也默认支持。
 
-## 部署到 GitHub Pages（免费）
-
-### 方式一：用户名网站（推荐）
-
-仓库名必须为 `你的用户名.github.io`，例如 `alice.github.io`：
-
-1. 在 GitHub 上新建一个仓库，命名为 `<你的用户名>.github.io`；
-2. 在本地把代码推上去：
 
 ```bash
 cd personal-blog

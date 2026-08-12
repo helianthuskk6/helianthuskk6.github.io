@@ -50,10 +50,10 @@
   },
   "projects": [
     {
-      "name": "示例项目一",
-      "desc": "这是你第一个项目的简短介绍，说明它解决了什么问题、用了什么技术。",
-      "link": "https://github.com/你的用户名",
-      "tags": ["HTML", "CSS", "JavaScript"]
+      "name": "暂时没有项目",
+      "desc": "没有项目也没有技术。",
+      "link": "#待补充",
+      "tags": ["摆烂"]
     }
   ],
   "contact": {
