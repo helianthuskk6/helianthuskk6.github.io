@@ -6,8 +6,6 @@
 :root {
   --accent: #6366f1;
   --accent-2: #a855f7;
-  --bg: #f7f8fb;
-  --bg-alt: #eef0f7;
   --surface: #ffffff;
   --surface-2: #f3f4fa;
   --text: #1f2430;
@@ -49,13 +47,24 @@ html {
   scroll-behavior: smooth;
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: -1;
+}
+
 body {
   font-family: var(--font);
-  background: var(--bg);
   color: var(--text);
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
   transition: background 0.3s ease, color 0.3s ease;
+  background-image: url("../assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 img {
