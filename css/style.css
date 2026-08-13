@@ -939,6 +939,13 @@ a:hover {
 
 /* ---------- 响应式 ---------- */
 @media (max-width: 768px) {
+  body {
+    background-image: url("../assets/background-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
   .nav-toggle {
     display: inline-flex;
   }
