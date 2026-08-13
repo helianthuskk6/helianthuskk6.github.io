@@ -2,7 +2,7 @@
   "site": {
     "title": "我的个人空间",
     "author": "helianthus",
-    "avatar": "assets/c177ab537c630d18b2662ce03951c4e1.jpg",
+    "avatar": "assets/Avatar.jpg",
     "nav": [
       { "label": "首页", "url": "index.html" },
       { "label": "关于我", "url": "about.html" },
