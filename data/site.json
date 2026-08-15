@@ -1,13 +1,12 @@
 {
   "site": {
     "title": "我的个人空间",
-    "author": "helianthus",
+    "author": "hhhhhelianthuskk6",
     "avatar": "assets/Avatar.jpg",
     "nav": [
       { "label": "首页", "url": "index.html" },
       { "label": "关于我", "url": "about.html" },
       { "label": "博客", "url": "blog.html" },
-      { "label": "项目", "url": "projects.html" },
       { "label": "联系", "url": "contact.html" }
     ],
     "footerText": "2026 helianthus-个人空间 非商业使用"
@@ -15,47 +14,46 @@
   "hero": {
     "greeting": "早上好，中午好，晚上好。",
     "name": "helianthus",
-    "roles": ["InfoSec Student", "唐人"],
+    "roles": ["InfoSec Student","迷子"],
     "description": "图一乐网页",
     "primaryButton": { "text": "了解更多", "url": "about.html" },
-    "secondaryButton": { "text": "阅读博客", "url": "blog.html" }
+    "secondaryButton": { "text": "Blog", "url": "blog.html" }
   },
   "social": {
     "github": "https://github.com/helianthus11",
     "email": "d1fficultut@gmail.com",
     "X": "https://x.com/assessld",
     "bilibili": "https://space.bilibili.com/32199946",
-    "wechat": ""
+    "QQ": "https://user.qzone.qq.com/1606731837/"
   },
   "theme": {
     "accent": "#6366f1",
     "accent2": "#a855f7"
   },
   "about": {
-    "intro": "迷途之子，女声优痴（羊宫妃那，青木阳菜推）...",
+    "intro": "爱看点女声优，MyGO!!!!!",
     "facts": [
       { "label": "职业", "value": " 学生 " },
-      { "label": "所在地", "value": "中国" },
-      { "label": "兴趣", "value": "少女乐队，现地跑活" },
-      { "label": "语言", "value": "中文、English、日语（学习中）" }
+      { "label": "所在地", "value": "深圳，香港" },
+      { "label": "兴趣", "value": "少女乐队，现地跑活，画点小画" },
+      { "label": "语言", "value": "中文、English、粤语、日语（学习中）" }
     ],
-    "background": "香港某理工大学学生，，，",
+    "background": "香港某理工大学大四学生，轻度音游痴， PolyUMUGA已成立🔥🔥🔥",
     "timeline": [
       {
-        "date": "2026",
-        "title": "开启我的博客之旅",
-        "desc": "简简单单vibe code一个个人主页 - -"
+        "date": "2025.10.11",
+        "title": "上海MyGO!!!!!&AveMujica追加公演",
+        "desc": ["首次邦活现地",
+                  "梅赛德斯奔驰文化中心"]
+      },
+      {
+        "date": "2026.7.18",
+        "title": "横滨MyGo!!!!!",
+        "desc": ["首次MyGO!!!!!独立演出现地",
+                  "PIA ARENA MM"]
       }
     ]
   },
-  "projects": [
-    {
-      "name": "暂时没有项目",
-      "desc": "没有项目也没有技术。",
-      "link": "#待补充",
-      "tags": ["摆烂"]
-    }
-  ],
   "contact": {
     "text": "个人邮箱，欢迎打扰/闲聊/骚扰（bushi",
     "email": "d1fficultut@gmail.com"

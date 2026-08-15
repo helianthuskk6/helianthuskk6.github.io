@@ -1,12 +1,18 @@
 {
   "posts": [
     {
-      "slug": "迷子でもいい、迷子でも進め",
-      "title": "一直在迷路...",
-      "date": "2026-08-12",
-      "tags": ["区"],
-      "summary": "总而言之，我想成为人类",
-      "file": "posts/hello-world.md"
+      "slug": "分歧路口，前途漫漫",
+      "title": "上海MyGO!!!!!&AveMujica追加公演-跑活心得",
+      "date": "2025-10-11",
+      "tags": ["跑活记录", "MyGO!!!!!","Ave Mujica", "Sumimi", "Crychic"],
+      "file": "posts/2025Shanghai.md"
+    },
+    {
+      "slug": "つなぎ目の向こうに",
+      "title": "横滨MyGO!!!!!-9th-跑活心得",
+      "date": "2026-07-18",
+      "tags": ["跑活记录", "MyGO!!!!!"],
+      "file": "posts/2026Yokohama.md"
     }
   ]
 }
